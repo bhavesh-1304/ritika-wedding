@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2a050f">
+  
+  <title>Ritika & Kailashji Patel | Shubh Vivah Invitation</title>
+  <meta name="description" content="॥ श्री गणेशाय नमः ॥ ॥ श्री राजेश्वराय नमः ॥ Ritika Choudhary & Kailashji Patel Wedding Invitation — 12 December 2026, Pali (Raj.)">
+  
+  <!-- Open Graph for WhatsApp & Social Sharing -->
+  <meta property="og:title" content="Ritika & Kailashji | Shubh Vivah">
+  <meta property="og:description" content="राजेश्वर भगवान की असीम कृपा से — चौधरी एवं पटेल परिवार सादर आमंत्रित करता है। 12 December 2026">
+  <meta property="og:type" content="website">
+  
+  <!-- Google Fonts: Playfair Display, Noto Serif Devanagari, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Subtle Golden Sparkles Canvas -->
+  <canvas id="particlesCanvas"></canvas>
+
+  <!-- Background Music Audio Element -->
+  <audio id="weddingAudio" src="assets/audio/baisa_ro_roop.mp3" preload="auto" loop></audio>
+
+  <!-- Floating Audio Widget -->
+  <div class="audio-widget" id="audioWidget" title="Play / Pause Baisa Ro Roop" aria-label="Toggle background wedding music">
+    <div class="audio-disk">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 18V5l12-2v13"></path>
+        <circle cx="6" cy="18" r="3"></circle>
+        <circle cx="18" cy="16" r="3"></circle>
+      </svg>
+    </div>
+    <div class="audio-info">
+      <span class="audio-title">Baisa Ro Roop</span>
+      <div class="audio-bars">
+        <span class="audio-bar"></span>
+        <span class="audio-bar"></span>
+        <span class="audio-bar"></span>
+        <span class="audio-bar"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       SECTION 4: OPENING INVITATION SCREEN: REEL-INSPIRED SLIDING ROYAL DOORS
+       ========================================================================== -->
+  <div id="invitationCover">
+    <!-- Left Sliding Door Panel with Royal Gold Elephant -->
+    <div class="door-panel door-left">
+      <svg class="door-floral-top" viewBox="0 0 100 60" fill="none">
+        <path d="M10 10 Q50 40 90 10 Q50 30 10 10Z" fill="url(#doorGold)"/>
+        <circle cx="50" cy="30" r="6" fill="#c59b4c"/>
+        <defs><linearGradient id="doorGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fae7b9"/><stop offset="50%" stop-color="#c59b4c"/><stop offset="100%" stop-color="#875c16"/></linearGradient></defs>
+      </svg>
+      <!-- Golden Royal Elephant Crest (Left) -->
+      <svg class="door-elephant" viewBox="0 0 120 100" fill="currentColor">
+        <path d="M20 75 C20 40 50 20 85 20 C105 20 115 35 115 55 C115 70 105 85 95 85 C90 85 85 80 85 70 C85 60 95 55 95 45 C95 38 88 32 80 32 C65 32 45 45 42 65 C40 75 35 85 30 85 C25 85 20 80 20 75 Z" fill="#dfb965"/>
+        <circle cx="90" cy="38" r="3" fill="#350512"/>
+        <path d="M35 55 Q55 35 75 55 Q55 75 35 55Z" fill="#edd6a4" opacity="0.6"/>
+        <rect x="55" y="70" width="12" height="25" rx="3" fill="#c59b4c"/>
+        <rect x="75" y="70" width="12" height="25" rx="3" fill="#c59b4c"/>
+      </svg>
+    </div>
+
+    <!-- Right Sliding Door Panel with Royal Gold Elephant -->
+    <div class="door-panel door-right">
+      <svg class="door-floral-top" viewBox="0 0 100 60" fill="none">
+        <path d="M10 10 Q50 40 90 10 Q50 30 10 10Z" fill="url(#doorGold2)"/>
+        <circle cx="50" cy="30" r="6" fill="#c59b4c"/>
+        <defs><linearGradient id="doorGold2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fae7b9"/><stop offset="50%" stop-color="#c59b4c"/><stop offset="100%" stop-color="#875c16"/></linearGradient></defs>
+      </svg>
+      <!-- Golden Royal Elephant Crest (Right) -->
+      <svg class="door-elephant" viewBox="0 0 120 100" fill="currentColor">
+        <path d="M20 75 C20 40 50 20 85 20 C105 20 115 35 115 55 C115 70 105 85 95 85 C90 85 85 80 85 70 C85 60 95 55 95 45 C95 38 88 32 80 32 C65 32 45 45 42 65 C40 75 35 85 30 85 C25 85 20 80 20 75 Z" fill="#dfb965"/>
+        <circle cx="90" cy="38" r="3" fill="#350512"/>
+        <path d="M35 55 Q55 35 75 55 Q55 75 35 55Z" fill="#edd6a4" opacity="0.6"/>
+        <rect x="55" y="70" width="12" height="25" rx="3" fill="#c59b4c"/>
+        <rect x="75" y="70" width="12" height="25" rx="3" fill="#c59b4c"/>
+      </svg>
+    </div>
+
+    <!-- Center Auspicious Royal Seal / Plaque -->
+    <div class="cover-center-plaque">
+      <div class="card-header-motif">
+        <p class="shree-ganesh hindi">
+          ॥ श्री गणेशाय नमः ॥<br>
+          ॥ श्री राजेश्वराय नमः ॥
+        </p>
+        
+        <svg class="ganesha-icon" viewBox="0 0 64 64" fill="currentColor">
+          <path d="M32 6c-3 0-5.5 2.5-5.5 5.5v2.8c-4.2.8-7.5 3.5-9 7.4-2.5 6.5.8 14 7.2 16.5v8.3c0 3 2.5 5.5 5.5 5.5s5.5-2.5 5.5-5.5v-8.3c6.4-2.5 9.7-10 7.2-16.5-1.5-3.9-4.8-6.6-9-7.4v-2.8C34 8.5 35 6 32 6zm-4.5 17c1.4 0 2.5 1.1 2.5 2.5s-1.1 2.5-2.5 2.5-2.5-1.1-2.5-2.5 1.1-2.5 2.5-2.5zm9 0c1.4 0 2.5 1.1 2.5 2.5s-1.1 2.5-2.5 2.5-2.5-1.1-2.5-2.5 1.1-2.5 2.5-2.5zM32 30c2.5 0 4.5 2 4.5 4.5 0 4-3 6.5-4.5 7.5-1.5-1-4.5-3.5-4.5-7.5 0-2.5 2-4.5 4.5-4.5z"/>
+        </svg>
+      </div>
+
+      <p class="cover-blessing hindi">राजेश्वर भगवान की असीम कृपा से</p>
+      
+      <div class="cover-divider">
+        <span></span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z"/></svg>
+        <span></span>
+      </div>
+
+      <h1 class="cover-names serif">
+        Ritika
+        <span class="amp">&</span>
+        Kailashji
+      </h1>
+
+      <p class="cover-family hindi" style="font-size:15px; color:#4a0a1a; font-weight:700;">चौधरी एवं पटेल परिवार</p>
+      <div class="cover-date-pill">SHUBH VIVAH · 12 DECEMBER 2026</div>
+
+      <div style="margin-top:20px;">
+        <button class="open-invitation-btn" id="openInvitationBtn">
+          <span>आमंत्रण पत्र खोलें · Tap to Open</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MAIN INVITATION BODY
+       ========================================================================== -->
+  <main id="mainContent">
+    
+    <!-- HERO SECTION WITH ROYAL ARCHWAY -->
+    <header class="hero-section jaali-pattern-bg">
+      <div class="hero-royal-frame fade-up-element revealed">
+        
+        <div class="arch-pinnacle">
+          <!-- Auspicious Kalash SVG -->
+          <svg class="kalash-icon" viewBox="0 0 24 24">
+            <path d="M12 2C11 2 10 3 10 4C10 4.5 10.2 5 10.6 5.4L6 9H18L13.4 5.4C13.8 5 14 4.5 14 4C14 3 13 2 12 2ZM5 11C4.4 11 4 11.4 4 12C4 16.4 7.6 20 12 20C16.4 20 20 16.4 20 12C20 11.4 19.6 11 19 11H5ZM12 22C8 22 7 21 6 21H18C17 21 16 22 12 22Z"/>
+          </svg>
+        </div>
+
+        <!-- Section 1 Details -->
+        <p class="hero-invocation hindi">
+          ॥ श्री गणेशाय नमः ॥<br>
+          ॥ श्री राजेश्वराय नमः ॥
+        </p>
+
+        <p class="hero-blessing-line hindi">
+          राजेश्वर भगवान की असीम कृपा से
+        </p>
+
+        <p class="hero-family-sub">चौधरी एवं पटेल परिवार</p>
+
+        <!-- Section 3: ReactBits-Inspired BlurText Reveal for Names -->
+        <div class="hero-names-wrapper animated">
+          <div class="blur-text-reveal serif">
+            <span class="word word-ritika">Ritika</span>
+            <span class="word word-amp"><span class="amp">&</span></span>
+            <span class="word word-kailash">Kailashji</span>
+            <span class="word word-patel">Patel</span>
+          </div>
+        </div>
+
+        <p class="hero-shubh-title hindi">शुभ विवाह समारोह</p>
+        <p class="hero-wedding-date">SATURDAY · 12 DECEMBER 2026</p>
+        <p class="hero-tithi hindi">वि.सं. 2083, मिति मार्गशीर्ष सुदी 3</p>
+
+        <!-- Section 6: Live Countdown -->
+        <div class="countdown-box" aria-label="Countdown to 12 December 2026">
+          <div class="countdown-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            Countdown to Shubh Vivah
+          </div>
+          <div class="countdown-grid">
+            <div class="countdown-item">
+              <span class="countdown-num" id="countDays">--</span>
+              <span class="countdown-unit">Days</span>
+            </div>
+            <div class="countdown-item">
+              <span class="countdown-num" id="countHours">--</span>
+              <span class="countdown-unit">Hours</span>
+            </div>
+            <div class="countdown-item">
+              <span class="countdown-num" id="countMinutes">--</span>
+              <span class="countdown-unit">Minutes</span>
+            </div>
+            <div class="countdown-item">
+              <span class="countdown-num" id="countSeconds">--</span>
+              <span class="countdown-unit">Seconds</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <span>Scroll to explore</span>
+          <svg class="scroll-arrow" viewBox="0 0 24 24" fill="none">
+            <polyline points="6 9 12 15 18 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- ==========================================================================
+         FORMAL INVITATION PATRIKA (With Respect & Family Blessings)
+         ========================================================================== -->
+    <section class="content-section jaali-pattern-bg">
+      <div class="section-container">
+        
+        <div class="section-header fade-up-element">
+          <span class="section-kicker">Auspicious Beginning</span>
+          <h2 class="section-title serif">Shubh Vivah Nimantran</h2>
+          <div class="section-ornament">
+            <span></span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z"/>
+            </svg>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="scroll-farman-wrapper fade-up-element">
+          <div class="scroll-roller scroll-roller-top"></div>
+          <div class="invitation-patrika-card">
+            <p class="patrika-text-hindi hindi">
+              विघ्न हरण मंगल करण, गणनायक गणराज ।<br>
+              ऋद्धि-सिद्धि सहित पधारजो, पूरण करजो काज ॥<br><br>
+              श्री राजेश्वर भगवान की असीम कृपा एवं समस्त परिवारजनों के स्नेहाशीर्वाद से<br>
+              हमारी प्रिय लाडली <span class="patrika-highlight">आयुष्मति रितिका चौधरी</span> का शुभ विवाह<br>
+              <span class="patrika-highlight">आयुष्मान कैलाशजी पटेल</span> के साथ तय हुआ है।<br><br>
+              इस मांगलिक बेला पर आप सपरिवार पधारकर नवयुगल को अपना स्नेह, शुभाशीष एवं मंगल कामनाएं प्रदान कर हमें अनुगृहीत करें।<br><br>
+              <span style="font-size:15px; font-weight:700; color:#4a0a1a;">विनीत: समस्त कोंदली परिवार (बल्दों की ढाणी)</span>
+            </p>
+
+            <div class="patrika-english-note">
+              With joyful hearts and blessings of the Almighty, we cordially invite you to celebrate the sacred union of Ritika and Kailashji as they begin their beautiful forever together.
+            </div>
+          </div>
+          <div class="scroll-roller scroll-roller-bottom"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 5: BRIDE & GROOM PHOTOS (Separate Elegant Sections)
+         ========================================================================== -->
+    <section class="portraits-section" id="coupleSection">
+      <div class="section-container">
+        
+        <div class="section-header fade-up-element">
+          <span class="section-kicker">The Couple</span>
+          <h2 class="section-title serif">The Bride & The Groom</h2>
+          <div class="section-ornament">
+            <span></span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z"/>
+            </svg>
+            <span></span>
+          </div>
+          <p class="section-subtitle hindi">दो कुलों का पावन मिलन · एक नए जीवन का शुभारंभ</p>
+        </div>
+
+        <div class="portraits-grid">
+          
+          <!-- BRIDE PORTRAIT (Separate Section) -->
+          <article class="portrait-royal-card fade-up-element">
+            <div class="portrait-image-frame">
+              <img src="assets/images/bride_portrait.jpg" alt="Ritika Choudhary - The Bride" loading="lazy">
+            </div>
+            <div class="portrait-details">
+              <span class="portrait-role-badge">वधू · THE BRIDE</span>
+              <h3 class="portrait-name serif">Ritika Choudhary</h3>
+              <div class="portrait-lineage hindi">
+                <strong>सुपौत्री :</strong> श्रीमती सायरी देवी - श्री पुखराजजी कोंदली<br>
+                <strong>सुपुत्री :</strong> श्रीमती सुनिता - श्री मनीष चौधरी
+              </div>
+            </div>
+          </article>
+
+          <!-- GROOM PORTRAIT (Separate Section) -->
+          <article class="portrait-royal-card fade-up-element">
+            <div class="portrait-image-frame">
+              <img src="assets/images/groom_portrait.jpg" alt="Kailashji Patel - The Groom" loading="lazy">
+            </div>
+            <div class="portrait-details">
+              <span class="portrait-role-badge">वर · THE GROOM</span>
+              <h3 class="portrait-name serif">Kailashji Patel</h3>
+              <div class="portrait-lineage hindi">
+                <strong>सुपौत्र :</strong> श्रीमती गजरी देवी - श्री भैरारामजी मुंजी<br>
+                <strong>सुपुत्र :</strong> श्रीमती रूपी देवी - श्री शंकरलालजी मुंजी
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 7: WEDDING FUNCTIONS (Exact Details & Traditional Icons)
+         ========================================================================== -->
+    <section class="timeline-section" id="eventsSection">
+      <div class="section-container">
+        
+        <div class="section-header fade-up-element">
+          <span class="section-kicker">Riwaaz & Rasam</span>
+          <h2 class="section-title serif">Wedding Ceremonies</h2>
+          <div class="section-ornament">
+            <span></span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z"/>
+            </svg>
+            <span></span>
+          </div>
+          <p class="section-subtitle hindi">मांगलिक संस्कारों एवं शुभ आयोजनों की मंगल बेला</p>
+        </div>
+
+        <div class="events-list">
+          
+          <!-- Event 1: GHRITPAAN -->
+          <article class="event-royal-card fade-up-element">
+            <div class="event-date-block">
+              <span class="event-date-day">05</span>
+              <span class="event-date-month">DEC</span>
+              <span class="event-date-year">2026</span>
+            </div>
+            <div class="event-content">
+              <span class="event-badge">Auspicious Ceremony</span>
+              <h3 class="event-title hindi">घृतपान (GHRITPAAN)</h3>
+              <p class="event-time">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                12:15 PM – 4:00 PM
+              </p>
+              <p class="event-venue">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                स्थान: पटेल भवन (निज निवास) · 66, 68 घरवाला जाव, मण्डिया रोड, पाली
+              </p>
+              <!-- Exact Authoritative Home Google Maps Link -->
+              <a class="event-map-btn" href="https://maps.app.goo.gl/ednQQ7jofGRWWvdb6" target="_blank" rel="noopener">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Home Address Map
+              </a>
+            </div>
+          </article>
+
+          <!-- Event 2: BANDOLI -->
+          <article class="event-royal-card fade-up-element">
+            <div class="event-date-block">
+              <span class="event-date-day">10</span>
+              <span class="event-date-month">DEC</span>
+              <span class="event-date-year">2026</span>
+            </div>
+            <div class="event-content">
+              <span class="event-badge">Celebration of Joy</span>
+              <h3 class="event-title hindi">बंदोली (BANDOLI)</h3>
+              <p class="event-time">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                7:00 PM onwards
+              </p>
+              <p class="event-venue">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                स्थान: पटेल भवन (निज निवास) · 66, 68 घरवाला जाव, मण्डिया रोड, पाली
+              </p>
+              <!-- Exact Authoritative Home Google Maps Link -->
+              <a class="event-map-btn" href="https://maps.app.goo.gl/ednQQ7jofGRWWvdb6" target="_blank" rel="noopener">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Home Address Map
+              </a>
+            </div>
+          </article>
+
+          <!-- Event 3: AASHIRWAD CEREMONY & PREETI BHOJ -->
+          <article class="event-royal-card fade-up-element">
+            <div class="event-date-block">
+              <span class="event-date-day">12</span>
+              <span class="event-date-month">DEC</span>
+              <span class="event-date-year">2026</span>
+            </div>
+            <div class="event-content">
+              <span class="event-badge">Grand Reception & Feast</span>
+              <h3 class="event-title hindi">आशीर्वाद समारोह एवं प्रीतिभोज</h3>
+              <p class="event-time">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                11:15 AM – 3:00 PM (से आपके आगमन तक)
+              </p>
+              <p class="event-venue">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                स्थान: पटेल छात्रावास, पाली (राजस्थान)
+              </p>
+              <a class="event-map-btn" href="https://www.google.com/maps/search/?api=1&query=Patel+Chhatrawas+Pali+Rajasthan" target="_blank" rel="noopener">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Patel Chhatrawas Map
+              </a>
+            </div>
+          </article>
+
+          <!-- Event 4: MANGAL PHERAS -->
+          <article class="event-royal-card fade-up-element">
+            <div class="event-date-block">
+              <span class="event-date-day">12</span>
+              <span class="event-date-month">DEC</span>
+              <span class="event-date-year">2026</span>
+            </div>
+            <div class="event-content">
+              <span class="event-badge">Sacred Seven Vows</span>
+              <h3 class="event-title hindi">मंगल फेरे (MANGAL PHERAS)</h3>
+              <p class="event-time">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                12 December 2026 · शुभ लग्न वेला
+              </p>
+              <p class="event-venue">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                स्थान: पटेल छात्रावास, पाली (राजस्थान)
+              </p>
+              <a class="event-map-btn" href="https://www.google.com/maps/search/?api=1&query=Patel+Chhatrawas+Pali+Rajasthan" target="_blank" rel="noopener">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Patel Chhatrawas Map
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 8: EXACT GOOGLE MAPS LOCATIONS (Authoritative Links)
+         ========================================================================== -->
+    <section class="venues-section" id="venuesSection">
+      <div class="section-container">
+        
+        <div class="section-header fade-up-element">
+          <span class="section-kicker">Navigation & Venues</span>
+          <h2 class="section-title serif">Venues & Directions</h2>
+          <div class="section-ornament">
+            <span></span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z"/>
+            </svg>
+            <span></span>
+          </div>
+          <p class="section-subtitle hindi">स्थान एवं मार्ग दर्शन</p>
+        </div>
+
+        <div class="venues-grid">
+          
+          <!-- Exact Home Address Card -->
+          <div class="venue-card-premium fade-up-element">
+            <div>
+              <span class="venue-type-tag">Home Ceremonies · निज निवास</span>
+              <h3 class="venue-card-title serif">Patel Bhawan (पटेल भवन)</h3>
+              <p class="venue-card-address hindi">
+                66, 68 घरवाला जाव,<br>
+                मण्डिया रोड, पाली (राजस्थान)
+              </p>
+              <div class="venue-card-events">
+                Ghritpaan: 5 Dec 2026 (12:15 PM – 4:00 PM)<br>
+                Bandoli: 10 Dec 2026 (7:00 PM)
+              </div>
+            </div>
+            <!-- EXACT Authoritative Link as requested by user -->
+            <a class="venue-directions-btn" href="https://maps.app.goo.gl/ednQQ7jofGRWWvdb6" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Get Directions to Patel Bhawan
+            </a>
+          </div>
+
+          <!-- Wedding Venue Card -->
+          <div class="venue-card-premium fade-up-element">
+            <div>
+              <span class="venue-type-tag">Wedding & Reception Venue</span>
+              <h3 class="venue-card-title serif">Patel Chhatrawas</h3>
+              <p class="venue-card-address hindi">
+                पटेल छात्रावास,<br>
+                पाली (राजस्थान)
+              </p>
+              <div class="venue-card-events">
+                Aashirwad & Preeti Bhoj: 12 Dec 2026 (11:15 AM – 3:00 PM)<br>
+                Mangal Pheras: 12 Dec 2026
+              </div>
+            </div>
+            <a class="venue-directions-btn" href="https://www.google.com/maps/search/?api=1&query=Patel+Chhatrawas+Pali+Rajasthan" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Get Directions to Patel Chhatrawas
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 10: FAMILY MEMORIES SECTION (Real Uploaded Photos Separately)
+         ========================================================================== -->
+    <section class="family-gallery-section" id="familySection">
+      <div class="section-container">
+        
+        <div class="section-header fade-up-element">
+          <span class="section-kicker">Cherished Moments</span>
+          <h2 class="section-title serif">Family Memories</h2>
+          <div class="section-ornament">
+            <span></span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z"/>
+            </svg>
+            <span></span>
+          </div>
+          <p class="section-subtitle hindi">परिवार का स्नेह, अपनों का साथ और अनमोल यादें</p>
+        </div>
+
+        <div class="family-gallery-grid">
+          
+          <!-- Photo 1: Family Tent Group (Ritika with Brother Mahaveer, Sisters, and Elders) -->
+          <article class="family-photo-card wide-photo fade-up-element">
+            <div class="family-photo-frame">
+              <img src="assets/images/family_tent.jpg" alt="Ritika with Brother Mahaveer and Family" loading="lazy">
+            </div>
+            <div class="family-photo-caption hindi">
+              स्नेहिल परिवार · खुशियों के सुनहरे पल
+              <small>Ritika with brother Mahaveer, sisters, and elders</small>
+            </div>
+          </article>
+
+          <!-- Photo 2: Full Family Gathering -->
+          <article class="family-photo-card wide-photo fade-up-element">
+            <div class="family-photo-frame">
+              <img src="assets/images/family_gathering.jpg" alt="Choudhary & Kondli Family Gathering" loading="lazy">
+            </div>
+            <div class="family-photo-caption hindi">
+              सपरिवार मंगल आशीर्वाद
+              <small>The complete family gathered in harmony</small>
+            </div>
+          </article>
+
+          <!-- Photo 3: Ritika with Two Brothers in Traditional Safa -->
+          <article class="family-photo-card wide-photo fade-up-element">
+            <div class="family-photo-frame">
+              <img src="assets/images/ritika_with_brothers.jpg" alt="Ritika with brothers in traditional Marwadi attire" loading="lazy">
+            </div>
+            <div class="family-photo-caption hindi">
+              <strong>&#2349;&#2366;&#2311;-&#2348;&#2361;&#2344; &#2325;&#2366; &#2346;&#2357;&#2367;&#2340;&#2381;&#2352; &#2348;&#2306;&#2343;&#2344;</strong> &middot; &#2346;&#2352;&#2350;&#2381;&#2346;&#2352;&#2366; &#2325;&#2368; &#2358;&#2366;&#2344;
+              <small>Ritika with her brothers in traditional Marwadi attire</small>
+            </div>
+          </article>
+
+          <!-- Photo 4: Family Staircase Blessings -->
+          <article class="family-photo-card wide-photo fade-up-element">
+            <div class="family-photo-frame">
+              <img src="assets/images/family_staircase_blessings.jpg" alt="Family portrait with elders blessings" loading="lazy">
+            </div>
+            <div class="family-photo-caption hindi">
+              <strong>&#2348;&#2337;&#2492;&#2379; &#2325;&#2366; &#2310;&#2358;&#2368;&#2352;&#2381;&#2357;&#2366;&#2342;</strong> &middot; &#2326;&#2369;&#2358;&#2367;&#2351;&#2379;&#2306; &#2325;&#2368; &#2348;&#2369;&#2344;&#2367;&#2351;&#2366;&#2342;
+              <small>Family blessings — a precious portrait with elders</small>
+            </div>
+          </article>
+
+          <!-- Photo 5: Mangal Kalash Women Ceremony -->
+          <article class="family-photo-card wide-photo fade-up-element">
+            <div class="family-photo-frame">
+              <img src="assets/images/family_mangal_kalash.jpg" alt="Auspicious Mangal Kalash women ceremony" loading="lazy">
+            </div>
+            <div class="family-photo-caption hindi">
+              <strong>&#2350;&#2306;&#2327;&#2354; &#2325;&#2354;&#2358;</strong> &middot; &#2358;&#2369;&#2349; &#2309;&#2344;&#2369;&#2359;&#2381;&#2336;&#2366;&#2344; &#2325;&#2368; &#2346;&#2366;&#2357;&#2344; &#2348;&#2375;&#2354;&#2366;
+              <small>Auspicious Mangal Kalash ceremony with family women</small>
+            </div>
+          </article>
+
+          <!-- Photo 6: Ritika Mandir Darshan with Grandmother -->
+          <article class="family-photo-card wide-photo fade-up-element">
+            <div class="family-photo-frame">
+              <img src="assets/images/ritika_mandir_darshan.jpg" alt="Ritika and grandmother at temple" loading="lazy">
+            </div>
+            <div class="family-photo-caption hindi">
+              <strong>&#2350;&#2306;&#2342;&#2367;&#2352; &#2342;&#2352;&#2381;&#2358;&#2344;</strong> &middot; &#2342;&#2366;&#2342;&#2368; &#2350;&#2366;&#2305; &#2360;&#2306;&#2327; &#2351;&#2379;&#2327;&#2375;&#2358;&#2381;&#2357;&#2352; &#2310;&#2352;&#2366;&#2343;&#2344;&#2366;
+              <small>Ritika and grandmother seeking divine blessings at the temple</small>
+            </div>
+          </article>
+
+          <!-- Photo 7: Family Courtyard Moment -->
+          <article class="family-photo-card wide-photo fade-up-element">
+            <div class="family-photo-frame">
+              <img src="assets/images/family_courtyard.jpg" alt="Family courtyard gathering" loading="lazy">
+            </div>
+            <div class="family-photo-caption hindi">
+              <strong>&#2310;&#2305;&#2327;&#2344; &#2325;&#2368; &#2351;&#2366;&#2342;&#2375;&#2306;</strong> &middot; &#2309;&#2346;&#2344;&#2379;&#2306; &#2325;&#2366; &#2360;&#2366;&#2341;
+              <small>Cherished family moments in the courtyard</small>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         DEDICATED SISTER SPOTLIGHT SECTION (High Quality Portrait & Heartfelt Quote)
+         ========================================================================== -->
+    <section class="sister-spotlight-section jaali-pattern-bg">
+      <div class="section-container">
+        
+        <div class="section-header fade-up-element" style="margin-bottom:28px;">
+          <span class="section-kicker" style="color:#fae7b9;">लाडली बहना</span>
+          <h2 class="section-title serif" style="color:#fae7b9;">Our Whole World</h2>
+          <div class="section-ornament">
+            <span></span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            <span></span>
+          </div>
+          <p class="section-subtitle hindi" style="color:#edd5a8;">मुस्कुराहटों और स्नेहाशीर्वाद से सजा जीवन का सबसे प्यारा कोना</p>
+        </div>
+
+        <div class="spotlight-royal-showcase fade-up-element">
+          <div class="spotlight-image-holder">
+            <img src="assets/images/ritika_spotlight_portrait.jpg" alt="Ritika Choudhary - A Lovely Smile and an Innocent Heart" loading="lazy">
+          </div>
+          
+          <div class="spotlight-quote-box">
+            <p class="spotlight-quote-text serif">
+              “A lovely smile and an innocent heart...<br>that is my whole world! 🤍”
+            </p>
+            <p class="spotlight-quote-sub hindi">
+              लाडली रितिका — हमारे घर का गौरव एवं खुशियों का अनमोल संसार
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FAMILY RELATIONS SECTION (From Physical Invitation Card - Royal Farman)
+         ========================================================================== -->
+    <section class="family-relations-section" id="relationsSection">
+      <div class="section-container">
+        <div class="relations-card royal-farman-card fade-up-element">
+          
+          <!-- Ornate Royal Corner Flourishes -->
+          <svg class="corner-decor top-left" viewBox="0 0 50 50">
+            <path d="M2 2 H30 C15 6 6 15 2 30 Z" fill="url(#cornerGold)"/>
+            <circle cx="8" cy="8" r="3" fill="#dfb965"/>
+          </svg>
+          <svg class="corner-decor top-right" viewBox="0 0 50 50">
+            <path d="M48 2 H20 C35 6 44 15 48 30 Z" fill="url(#cornerGold)"/>
+            <circle cx="42" cy="8" r="3" fill="#dfb965"/>
+          </svg>
+          <svg class="corner-decor bottom-left" viewBox="0 0 50 50">
+            <path d="M2 48 H30 C15 44 6 35 2 20 Z" fill="url(#cornerGold)"/>
+            <circle cx="8" cy="42" r="3" fill="#dfb965"/>
+          </svg>
+          <svg class="corner-decor bottom-right" viewBox="0 0 50 50">
+            <path d="M48 48 H20 C35 44 44 35 48 20 Z" fill="url(#cornerGold)"/>
+            <circle cx="42" cy="42" r="3" fill="#dfb965"/>
+          </svg>
+
+          <!-- Shared Gold Gradients for Icons -->
+          <svg width="0" height="0" style="position:absolute;">
+            <defs>
+              <linearGradient id="cornerGold" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#fae7b9"/>
+                <stop offset="50%" stop-color="#dfb965"/>
+                <stop offset="100%" stop-color="#9d7730"/>
+              </linearGradient>
+              <linearGradient id="relGoldIcon" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#fae7b9"/>
+                <stop offset="40%" stop-color="#dfb965"/>
+                <stop offset="100%" stop-color="#9d7730"/>
+              </linearGradient>
+            </defs>
+          </svg>
+
+          <div class="relations-header-crest">
+            <div class="crest-arch-crown">
+              <svg width="36" height="24" viewBox="0 0 60 40" fill="none">
+                <path d="M30 4 Q45 18 56 36 Q30 26 4 36 Q15 18 30 4Z" fill="url(#relGoldIcon)"/>
+                <circle cx="30" cy="14" r="3" fill="#4a0a1a"/>
+              </svg>
+            </div>
+            <span class="section-kicker">BLESSINGS & RELATIONS</span>
+            <h2 class="section-title serif hindi royal-relations-title">चौधरी एवं पटेल परिवार</h2>
+            <p class="hindi relations-sub-location">समस्त कोंदली परिवार (बल्दों की ढाणी)</p>
+            <div class="section-ornament">
+              <span></span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15 9L22 12L15 15L12 22L9 15L2 12L9 9L12 2Z"/></svg>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="relations-grid hindi">
+            
+            <!-- 1. निमंत्रक (The Inviter / Patriarch) -->
+            <div class="relation-group card-stagger">
+              <div class="relation-badge-ribbon">
+                <div class="relation-icon-box">
+                  <!-- Auspicious Kalash SVG -->
+                  <svg class="rel-icon-svg" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 3C15 3 14 4 14 5C14 5.8 14.5 6.4 15.2 6.8L10 11H22L16.8 6.8C17.5 6.4 18 5.8 18 5C18 4 17 3 16 3Z" fill="url(#relGoldIcon)"/>
+                    <path d="M8 13C7.4 13 7 13.4 7 14C7 19.5 11 24 16 24C21 24 25 19.5 25 14C25 13.4 24.6 13 24 13H8Z" fill="url(#relGoldIcon)"/>
+                    <path d="M11 26H21V28H11V26Z" fill="url(#relGoldIcon)"/>
+                  </svg>
+                </div>
+                <span class="relation-title-text">निमंत्रक</span>
+              </div>
+              <div class="relation-card-content">
+                <p class="relation-primary-name">पुखराज S/o स्व. श्री टिकमजी पटेल</p>
+                <p class="relation-meta-tag"><span>(बल्दों की ढाणी)</span> · पाली (राज.)</p>
+              </div>
+            </div>
+
+            <!-- 2. स्वागतोत्सुक (Eagerly Awaiting) -->
+            <div class="relation-group card-stagger">
+              <div class="relation-badge-ribbon">
+                <div class="relation-icon-box">
+                  <!-- Folded Namaste Hands SVG -->
+                  <svg class="rel-icon-svg" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 4C14.5 6 13 9 13 13V22C13 24.2 14.8 26 17 26C18.5 26 19.8 25.2 20.4 24L20 16L18 8L16 4Z" fill="url(#relGoldIcon)"/>
+                    <path d="M16 4C17.5 6 19 9 19 13V22C19 24.2 17.2 26 15 26C13.5 26 12.2 25.2 11.6 24L12 16L14 8L16 4Z" fill="url(#relGoldIcon)" opacity="0.85"/>
+                  </svg>
+                </div>
+                <span class="relation-title-text">स्वागतोत्सुक</span>
+              </div>
+              <div class="relation-card-content">
+                <p class="relation-primary-name">भागीरथ, भरत, महावीर,</p>
+                <p class="relation-secondary-name">वर्षा, हरीश, हिमांशु</p>
+              </div>
+            </div>
+
+            <!-- 3. विनीत (Humble Seekers of Blessings) -->
+            <div class="relation-group card-stagger">
+              <div class="relation-badge-ribbon">
+                <div class="relation-icon-box">
+                  <!-- Akhand Diya SVG -->
+                  <svg class="rel-icon-svg" viewBox="0 0 32 32" fill="none">
+                    <path d="M16 3C15 5 13.5 7 13.5 9.5C13.5 11.5 14.6 13 16 13C17.4 13 18.5 11.5 18.5 9.5C18.5 7 17 5 16 3Z" fill="#ffb830"/>
+                    <path d="M6 16C6 14 8 13 10 13H22C24 13 26 14 26 16C26 21 21.5 25 16 25C10.5 25 6 21 6 16Z" fill="url(#relGoldIcon)"/>
+                    <path d="M11 26H21V28H11V26Z" fill="url(#relGoldIcon)"/>
+                  </svg>
+                </div>
+                <span class="relation-title-text">विनीत</span>
+              </div>
+              <div class="relation-card-content">
+                <p class="relation-primary-name">हेमारामजी, वक्तारामजी, मोहनलाल, कानाराम</p>
+                <p class="relation-meta-tag">एवं समस्त कोंदली परिवार (बल्दों की ढाणी)</p>
+              </div>
+            </div>
+
+            <!-- 4. ननिहाल (मायरा) पक्ष -->
+            <div class="relation-group card-stagger">
+              <div class="relation-badge-ribbon">
+                <div class="relation-icon-box">
+                  <!-- Traditional Pagri & Mayra Potli SVG -->
+                  <svg class="rel-icon-svg" viewBox="0 0 32 32" fill="none">
+                    <path d="M9 14C9 10 12 7 16 7C20 7 23 10 23 14C23 15.5 22 17 20.5 18L21 24C21 26 18.8 27.5 16 27.5C13.2 27.5 11 26 11 24L11.5 18C10 17 9 15.5 9 14Z" fill="url(#relGoldIcon)"/>
+                    <path d="M13 5L16 9L19 5" stroke="#dfb965" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <span class="relation-title-text">ननिहाल (मायरा) पक्ष</span>
+              </div>
+              <div class="relation-card-content">
+                <p class="relation-primary-name">श्री कानारामजी, योगेशजी</p>
+                <p class="relation-meta-tag">एवं समस्त फक परिवार, हेमावास</p>
+              </div>
+            </div>
+
+            <!-- 5. जंवाई पक्ष -->
+            <div class="relation-group card-stagger highlight-gold-edge">
+              <div class="relation-badge-ribbon">
+                <div class="relation-icon-box">
+                  <!-- Gathbandhan / Sacred Knot SVG -->
+                  <svg class="rel-icon-svg" viewBox="0 0 32 32" fill="none">
+                    <circle cx="12" cy="16" r="6" stroke="url(#relGoldIcon)" stroke-width="2.5"/>
+                    <circle cx="20" cy="16" r="6" stroke="url(#relGoldIcon)" stroke-width="2.5"/>
+                    <path d="M16 10C18 7 21 5 24 7" stroke="#dfb965" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M16 22C14 25 11 27 8 25" stroke="#dfb965" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <span class="relation-title-text">जंवाई पक्ष</span>
+              </div>
+              <div class="relation-card-content">
+                <p class="relation-primary-name">श्रीमती रूकमा देवी - स्व. श्री पूनमजी सोलंकी <span class="tag-loc">(गाजनगढ़)</span></p>
+                <p class="relation-primary-name" style="margin-top:6px;">श्रीमती विद्या चौधरी - राजेन्द्रजी सोलंकी <span class="tag-loc">(रूपावास) हाल निवास-कोटा</span></p>
+              </div>
+            </div>
+
+            <!-- 6. स्वागतकर्ता -->
+            <div class="relation-group card-stagger highlight-gold-edge">
+              <div class="relation-badge-ribbon">
+                <div class="relation-icon-box">
+                  <!-- Toran Garland SVG -->
+                  <svg class="rel-icon-svg" viewBox="0 0 32 32" fill="none">
+                    <path d="M4 8H28" stroke="url(#relGoldIcon)" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M6 8C6 14 11 16 11 16C11 16 11 10 6 8Z" fill="url(#relGoldIcon)"/>
+                    <path d="M13.5 8C13.5 15 18.5 17 18.5 17C18.5 17 18.5 10 13.5 8Z" fill="url(#relGoldIcon)"/>
+                    <path d="M21 8C21 14 26 16 26 16C26 16 26 10 21 8Z" fill="url(#relGoldIcon)"/>
+                  </svg>
+                </div>
+                <span class="relation-title-text">स्वागतकर्ता</span>
+              </div>
+              <div class="relation-card-content">
+                <p class="relation-primary-name">विमला - प्रवीण पटेल</p>
+                <p class="relation-secondary-name">जगदीश, राजेश, सोहनलाल</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Creative Royal Baarat Showcase Banner -->
+          <div class="royal-baarat-showcase fade-up-element">
+            <div class="baarat-horse-container">
+              <!-- Traditional Decorated Marwadi Royal Horse Silhouette SVG -->
+              <svg class="baarat-horse-svg" viewBox="0 0 100 80" fill="none">
+                <path d="M18 68 C20 54 24 44 30 35 C36 28 44 22 54 18 C57 14 62 10 68 8 C72 6 78 8 80 12 C82 16 80 20 78 24 C84 26 90 32 90 40 C90 46 86 52 82 56 C80 62 76 68 74 72 C72 74 70 76 66 74 C62 72 64 66 66 60 C68 54 70 48 68 44 C65 42 60 44 56 46 C52 50 48 56 44 64 C40 70 34 74 28 74 C22 74 18 72 18 68 Z" fill="url(#baaratGoldShimmer)"/>
+                <circle cx="75" cy="16" r="2.5" fill="#350512"/>
+                <path d="M42 38 Q55 28 68 38 Q55 48 42 38Z" fill="#ffb830" opacity="0.85"/>
+                <path d="M68 8 Q72 2 76 5 Q72 10 68 8Z" fill="#e63956"/>
+                <defs>
+                  <linearGradient id="baaratGoldShimmer" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#fff0d0"/>
+                    <stop offset="35%" stop-color="#dfb965"/>
+                    <stop offset="70%" stop-color="#c59b4c"/>
+                    <stop offset="100%" stop-color="#875c16"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            
+            <div class="baarat-content-box hindi">
+              <div class="baarat-crest-header">
+                <span class="baarat-sparkle">✦</span>
+                <span class="baarat-tagline">शाही बारात आगमन · SHUBH BAARAT</span>
+                <span class="baarat-sparkle">✦</span>
+              </div>
+              <p class="baarat-main-text">
+                <strong>बारात :</strong> श्रीमान् शंकरलालजी सुपुत्र <span class="baarat-groom-father">श्री भैरारामजी मुंजी</span>,
+              </p>
+              <p class="baarat-location-text">
+                निवासी <span class="baarat-village-highlight">बिंजा वालों</span> के वहाँ से पधारेगी।
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 11: EMOTIONAL FINAL SECTION (Brother Bhagirath to Sister Ritika)
+         ========================================================================== -->
+    <section class="emotional-brother-section">
+      <div class="section-container">
+        
+        <div class="emotional-box fade-up-element">
+          
+          <div class="emotional-heart-icon">❤️</div>
+          
+          <h2 class="emotional-header serif">“To my dearest sister, Ritika ❤️”</h2>
+          
+          <p class="emotional-message-text">
+            “Your happiness means the world to me. May your new journey be filled with endless love, laughter and blessings.”
+          </p>
+
+          <div class="emotional-signature">
+            Created by <b>Bhagirath Choudhary</b>
+            <span>With lots of love for my sister.</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 12: FINAL SCREEN — ॥ राम राम सा ॥
+         (The VERY LAST screen of the website. Nothing after this.)
+         ========================================================================== -->
+    <footer class="final-screen-section" id="finalScreen">
+      <h2 class="ram-ram-sa hindi">॥ राम राम सा ॥</h2>
+      <p class="final-sub-blessing">SHUBH VIVAH · 12 DECEMBER 2026</p>
+    </footer>
+
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
